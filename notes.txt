@@ -1,0 +1,7 @@
+Event delegation in JavaScript is a technique where you attach a single event listener to a parent element to manage events on its child elements. This approach is efficient, especially when working with dynamically added elements or handling a large number of elements.
+
+We should convert the HTML collection into an array first and then use the forEach method.
+We can use forEach loop , only on arrays and nodeLists. Here I am using spread operator, [...elements]. The spread operator ... takes each item from the elements collection and spreads it into a new array elementsArray.
+
+To round a number to one decimal place in JavaScript, you can use toFixed(1) or Math.round with a multiplier.
+ eg:  (elememt).toFixed(1);
